@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,39 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.Imagecontainer {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Make the image responsive */
+.Imagecontainer img {
+  width: 100%;
+  height: auto;
+}
+.category-link a {
+  text-decoration: none;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.Imagecontainer .btn {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Imagecontainer .btn:hover {
+  background-color: black;
 }

@@ -143,8 +143,6 @@ const CreateListing = () => {
     const formDatacopy = {
       ...formData,
       imgUrls,
-      geolocation,
-      timestamp: serverTimestamp,
     };
     //formData.location = address;
     delete formDatacopy.images;
@@ -420,7 +418,7 @@ const CreateListing = () => {
             <label htmlFor="formFile" className="form-label">
               selct images:
             </label>
-            <input
+            {/* <input
               className="form-control"
               type="file"
               id="images"
@@ -430,7 +428,7 @@ const CreateListing = () => {
               accept=".png"
               multiple
               required
-            />
+            /> */}
           </div>
           <div className="mb-3">
             <input

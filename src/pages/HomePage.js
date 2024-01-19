@@ -1,8 +1,9 @@
 import React from "react";
 import Layout from "../components/Layout/Layout";
-import Header from "../components/Layout/Header";
+
 import { useNavigate } from "react-router-dom";
 import Slider from "../components/Slider";
+import "../styles/homepage.css";
 const HomePage = () => {
   const navigate = useNavigate();
   return (
